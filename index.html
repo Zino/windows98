@@ -1,8 +1,9 @@
 <head>
+  <!-- https://static.tumblr.com/fpdiq1j/O6Um4f3al/master_sprite.png -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
   <link rel="stylesheet" media="screen" href="style.css">
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -66,4 +67,34 @@
                 </div>
           </div>
   </div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.ok_button').click(function(){
+        $(this).parent().parent().fadeOut();
+    })
+    $('.start_button').click(function(){
+        $(this).toggleClass('sb_click')
+        $('.start_menu').slideToggle();
+    })
+    function updateClock(){
+        var date = new Date();
+        var mins = date.getMinutes();
+        var hrs = date.getHours();
+        var ext = "AM";
+        if(hrs > 12){
+            var ext = "PM";
+            var hrs = hrs - parseInt(12);
+        }
+        if(hrs < 10){
+            var hrs = "0"+hrs;
+        }
+        if(mins < 10){
+            var mins = "0"+mins;
+        }
+        var currentTime = hrs + ":" + mins + " " + ext;
+        $('#showClock').html(currentTime);
+    }
+    window.setInterval(updateClock, 6000);
+    updateClock();
+</script>
 </body>

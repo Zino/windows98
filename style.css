@@ -2,7 +2,7 @@ body {
   background: black;
 }
 
-.window { 
+.window {
   width: 500px;
   font-family: 'Arial',sans-serif;
   background: #c0c0c0;
@@ -39,7 +39,7 @@ body {
   margin-right: 5px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { 
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .window_heading_icon {
     background-image: url('https://dl.dropboxusercontent.com/u/16697297/themes/releases/win98_v2/win98_notepad_icon@2x.png');
     background-size: 16px 16px;
@@ -54,7 +54,7 @@ body {
   float: right;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) { 
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .window_heading_buttons {
     background-image:   url('https://dl.dropboxusercontent.com/u/16697297/themes/releases/win98_v2/win98_window_controls@2x.png');
     background-size: 50px 14px;
@@ -92,303 +92,307 @@ p {
   margin: 0;
 }
 .icons {
-                margin: 0 0 0 10px;
-                list-style-type: none;
-                padding: 0;
-                width: 100px;
-                float: left;
-                position: fixed;
-                z-index: 2;
-            }
-        
-            .my_computer, .my_documents, .network_neighborhood, .folder, .recycle_bin, .start_menu, .application_icons, .start_bar .start_button .logo, .start_bar .tray .calendar, .start_menu, .window .top, .window .middle, .window .bottom, .description .top, .description .ok_button, .description .bottom {
-                background-image: url('//static.tumblr.com/fpdiq1j/O6Um4f3al/master_sprite.png');
-                margin: auto;
-            }
-        
-            .my_computer {
-                height: 32px;
-                width: 32px;
-                background-position: -616px -157px;
-            }
-        
-            .my_documents {
-                height: 30px;
-                width: 32px;
-                background-position: -616px -189px;
-            }
-        
-            .network_neighborhood {
-                height: 32px;
-                width: 32px;
-                background-position: -616px -219px;
-            }
-        
-            .recycle_bin {
-                height: 32px;
-                width: 30px;
-                background-position: -616px -251px;
-            }
-        
-            .folder{
-                height: 27px;
-                width: 32px;
-                background-position: -616px -283px;
-            }
-        
-            .start_bar .start_button .logo {
-                width: 16px;
-                height: 14px;
-                background-position: -633px -103px;
-            }
-        
-            .application_icons {
-                height: 16px;
-                width: 84px;
-                background-position: -565px -69px;
-            }
-        
-            .start_bar .tray .calendar {
-                height: 16px;
-                width: 16px;
-                background-position: -632px -87px;
-            }
-        
-            .start_menu {
-                height: 383px;
-                width: 168px;
-                background-position: 0px 0px;
-            }
-        
-            .window .top {
-                height: 44px;
-                background-position: -168px 0px;
-            }
-            
-            .description .top {
-                height: 21px;
-                background-position: -168px -134px;
-            }
-            
-            .description .ok_button  {
-                height: 23px;
-                width: 75px;
-                margin-top: 7px;
-                background-position: -231px -158px;
-            }
-            
-            .description .bottom {
-                height: 2px;
-                background-position: -168px -155px;
-            }
-        
-        
-            .window .bottom {
-                background-position: -168px -46px;
-                height: 22px;
-            } 
-        
-            .icon_label {
-                padding-top: 6px;
-                color: #ffffff;
-                text-align: center;
-            }
-        
-            .icons a {
-                color: #ffffff;
-                text-decoration: none;
-                display: block;
-                margin-bottom: 15px;
-            }
-        
-            .title {
-                display: block;
-                font-size: 1.25em;
-                margin-bottom: 5px;
-            }
-        
-
-            .body img, .caption img {
-                max-width: 100%;
-                overflow: hidden;
-            }
-        
-            #desktop, .navigation {
-                margin: 20px auto;
-                z-index: 3;
-                position: relative;
-                
-                    width: 1000px;
-                
-                
-                left: 10px;
-            }
-
-
-            .window {
-                width: 480px;
-                max-width: 480px;
-                
-                    float: left;
-                    margin: 0 20px 20px 0;
-                
-                
-            }
-        
-            .window .top {
-                height: 44px;
-            }
-        
-            .window .top .info {
-                top: 26px;
-                left: 10px;
-                position: relative;
-                width: 300px;
-                z-index: 4;
-                font-size: 11px;
-                line-height: 13px;
-            }
-
-            .window > a {
-                color: #000000;
-                text-decoration: none;
-            }
-
-            .window .top a:hover {
-                text-decoration: underline;
+  margin: 0 0 0 10px;
+  list-style-type: none;
+  padding: 0;
+  width: 100px;
+  float: left;
+  position: fixed;
+  z-index: 2;
 }
 
- 
-            
-            .window .bottom {
-                height: 22px;
-            }
-            
+
+.my_documents, .network_neighborhood, .folder, .recycle_bin, .start_menu, .application_icons, .start_bar .start_button .logo, .start_bar .tray .calendar, .start_menu, .window .top, .window .middle, .window .bottom, .description .top, .description .ok_button, .description .bottom {
+  margin:auto;
+}
+
+.my_computer {
+  height: 32px;
+  width: 32px;
+  background-image: url('.\\win98_icons\\windows98-icons\\png\\computer_explorer-3.png');
+}
+
+.my_documents {
+  height: 30px;
+  width: 32px;
+  background-image: url('.\\win98_icons\\windows98-icons\\png\\directory_open_file_mydocs_2k-2.png');
+}
+
+.network_neighborhood {
+  height: 32px;
+  width: 32px;
+  background-image: url('.\\win98_icons\\windows98-icons\\png\\network_cool_two_pcs-0.png');
+}
+
+.recycle_bin {
+  height: 32px;
+  width: 30px;
+  background-image: url('.\\win98_icons\\windows98-icons\\png\\recycle_bin_empty-5.png');
+}
+
+.folder{
+  height: 27px;
+  width: 32px;
+  background-image: url('.\\win98_icons\\windows98-icons\\png\\directory_closed_cool-0.png');
+}
+
+.start_bar .start_button .logo {
+  width: 16px;
+  height: 14px;
+  background-image: url('');
+}
+
+.application_icons {
+  height: 16px;
+  width: 84px;
+  background-image: url('.\\win98_icons\\windows98-icons\\icons.png');
+}
+
+.start_bar {
+  height: 16px;
+  width: 16px;
+  background-image: url('');
+}
+
+.tray {
+  height: 16px;
+  width: 16px;
+  background-image: url('');
+}
+
+.calendar {
+  height: 16px;
+  width: 16px;
+  background-image: url('');
+}
+
+.start_menu {
+  height: 383px;
+  width: 168px;
+  background-position: 0px 0px;
+}
+
+.window .top {
+  height: 44px;
+  background-position: -168px 0px;
+}
+
+.description .top {
+  height: 21px;
+  background-position: -168px -134px;
+}
+
+.description .ok_button  {
+  height: 23px;
+  width: 75px;
+  margin-top: 7px;
+  background-position: -231px -158px;
+}
+
+.description .bottom {
+  height: 2px;
+  background-position: -168px -155px;
+}
 
 
+.window .bottom {
+  background-position: -168px -46px;
+  height: 22px;
+}
 
-            .navigation {
-                overflow: hidden;
-                font-weight: bold;
-                clear: both;
-                float: none;
-                margin-bottom: 40px !important;
-            }
-            
-            .navigation .next, .navigation .prev {
-                background-color: #FFFFFF;
-                padding: 6px 8px;
-            }
-            
-            .navigation .next {
-                float: right;
-            }
-        
-        
-            .start_bar {
-                position: fixed;
-                background-color: rgb(192,192,192);
-                bottom: 0;
-                height: 28px;
-                width: 100%;
-                z-index: 4;
-            }
-        
-            .start_menu {
-                position: fixed;
-                z-index: 3;
-                bottom: 28px;
-                display: none;
-            }
-        
-            .start_bar .top_border {
-                border-bottom: 1px solid rgb(255,255,255);
-                border-top: 1px solid rgb(223,223,223);
-            }
-        
-            .start_bar .start_button {
-                float: left;
-                border-top: 2px solid white;
-                border-left: 2px solid white;
-                border-bottom: 2px solid gray;
-                border-right: 2px solid gray;
-                height: 18px;
-                width: 54px;
-                margin-left: 2px;
-                margin-top: 2px;
-            }
-        
-            .sb_click {
-                border-bottom: 2px solid white !important;
-                border-right: 2px solid white !important;
-                border-top: 2px solid gray !important;
-                border-left: 2px solid gray !important;
-            }
-        
-            .start_bar .start_button .text{
-                float: right;
-                display: inline;
-/*                 margin-right: 4px; */
-                line-height: 18px;
-                font-weight: bold;
-            }
-        
-            .start_bar .start_button .logo{
-                float: left;
-                margin-top: 2px;
-                margin-left: 2px;
-            }
-        
-            .start_bar .big_seperator {
-                float: left;
-                border-left: 1px solid rgb(128,128,128);
-                border-right: 1px solid rgb(255,255,255);
-                height: 22px;
-                margin-top: 2px;
-                margin-left: 2px;
-            }
-        
-            .start_bar .small_seperator {
-                float: left;
-                border-left: 1px solid rgb(255,255,255);
-                border-top: 1px solid rgb(255,255,255);
-                border-right: 1px solid rgb(128,128,128);
-                border-bottom: 1px solid rgb(128,128,128);
-                background-color: rgb(192,192,192);
-                width: 1px;
-                height: 16px;
-                margin-top: 4px;
-                margin-left: 2px;
-            }
-        
-            .start_bar .application_icons {
-                float: left;
-                margin-top: 5px;
-                margin-left: 7px;
-                margin-right: 7px;
-            }
-        
-            .start_bar .tray {
-                float: right;
-                border-top: 1px solid rgb(128,128,128);
-                border-left: 1px solid rgb(128,128,128);
-                border-bottom: 1px solid rgb(255,255,255);
-                border-right: 1px solid rgb(255,255,255);
-                height: 18px;
-                width: 79px;
-                margin-right: 5px;
-                margin-top: 2px;
-            }
-        
-            .start_bar .tray .time {
-                line-height: 18px;
-                float: right;
-                font-size: 10px;
-                margin-right: 10px;
-            }
-        
-            .start_bar .tray .calendar {
-                float: left;
-                margin-top: 1px;
-                margin-left: 3px;
-            }
+.icon_label {
+  padding-top: 6px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.icons a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.title {
+  display: block;
+  font-size: 1.25em;
+  margin-bottom: 5px;
+}
+
+
+.body img, .caption img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#desktop, .navigation {
+  margin: 20px auto;
+  z-index: 3;
+  position: relative;
+
+  width: 1000px;
+
+
+  left: 10px;
+}
+
+
+.window {
+  width: 480px;
+  max-width: 480px;
+
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.window .top {
+  height: 44px;
+}
+
+.window .top .info {
+  top: 26px;
+  left: 10px;
+  position: relative;
+  width: 300px;
+  z-index: 4;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.window > a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.window .top a:hover {
+  text-decoration: underline;
+}
+
+.window .bottom {
+  height: 22px;
+}
+
+.navigation {
+  overflow: hidden;
+  font-weight: bold;
+  clear: both;
+  float: none;
+  margin-bottom: 40px !important;
+}
+
+.navigation .next, .navigation .prev {
+  background-color: #FFFFFF;
+  padding: 6px 8px;
+}
+
+.navigation .next {
+  float: right;
+}
+
+.start_bar {
+  position: fixed;
+  background-color: rgb(192,192,192);
+  bottom: 0;
+  height: 28px;
+  width: 100%;
+  z-index: 4;
+}
+
+.start_menu {
+  position: fixed;
+  z-index: 3;
+  bottom: 28px;
+  display: none;
+}
+
+.start_bar .top_border {
+  border-bottom: 1px solid rgb(255,255,255);
+  border-top: 1px solid rgb(223,223,223);
+}
+
+.start_bar .start_button {
+  float: left;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+  height: 18px;
+  width: 54px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.sb_click {
+  border-bottom: 2px solid white !important;
+  border-right: 2px solid white !important;
+  border-top: 2px solid gray !important;
+  border-left: 2px solid gray !important;
+}
+
+.start_bar .start_button .text{
+  float: right;
+  display: inline;
+  /*                 margin-right: 4px; */
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.start_bar .start_button .logo{
+  float: left;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.start_bar .big_seperator {
+  float: left;
+  border-left: 1px solid rgb(128,128,128);
+  border-right: 1px solid rgb(255,255,255);
+  height: 22px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.start_bar .small_seperator {
+  float: left;
+  border-left: 1px solid rgb(255,255,255);
+  border-top: 1px solid rgb(255,255,255);
+  border-right: 1px solid rgb(128,128,128);
+  border-bottom: 1px solid rgb(128,128,128);
+  background-color: rgb(192,192,192);
+  width: 1px;
+  height: 16px;
+  margin-top: 4px;
+  margin-left: 2px;
+}
+
+.start_bar .application_icons {
+  float: left;
+  margin-top: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.start_bar .tray {
+  float: right;
+  border-top: 1px solid rgb(128,128,128);
+  border-left: 1px solid rgb(128,128,128);
+  border-bottom: 1px solid rgb(255,255,255);
+  border-right: 1px solid rgb(255,255,255);
+  height: 18px;
+  width: 79px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.start_bar .tray .time {
+  line-height: 18px;
+  float: right;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.start_bar .tray .calendar {
+  float: left;
+  margin-top: 1px;
+  margin-left: 3px;
+}
