@@ -328,7 +328,7 @@ p {
             .start_bar .start_button .text{
                 float: right;
                 display: inline;
-                margin-right: 4px;
+/*                 margin-right: 4px; */
                 line-height: 18px;
                 font-weight: bold;
             }
